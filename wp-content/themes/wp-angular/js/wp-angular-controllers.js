@@ -14,4 +14,4 @@ wpAngularControllers.controller('contentController',['$scope','$http',
             $scope.posts = data;
         });
     }
-])
+]);

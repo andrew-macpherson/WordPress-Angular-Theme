@@ -3,7 +3,8 @@ Create an Angular module with dependencies for ngRoute and wpAngularController
  */
 var wpAngular = angular.module('wpAngular',[
     'ngRoute',
-    'wpAngularControllers'
+    'wpAngularControllers',
+    'ngSanitize'
 ]);
 
 
@@ -20,4 +21,4 @@ wpAngular.config(['$routeProvider',
             redirectTo: '/home'
         })
     }
-])
+]);
